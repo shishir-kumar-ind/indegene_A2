@@ -1,0 +1,108 @@
+*{
+    font-family: 'Poppins';    
+    font-weight: 600;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+}
+a:active{
+    color: black;
+}
+fieldset{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}
+input{
+    display: block;
+    
+}
+legend{
+    font-size: 18px;
+    color: midnightblue;
+}
+input[type='text'],input[type='email']{
+    margin-top: 5px;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+input,select{
+    margin-bottom: 20px;
+}
+.invalid{
+    font-size: 12px;
+    margin-top: -13px;
+    color:red;
+}
+.invalidIP{
+    border-color: red;
+    outline-color: red;
+}
+.errors{
+    color: red;
+}
+.form-container{
+    margin-top: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+#text-uploads{
+    margin: auto;
+}
+#doc-upload{
+    float: right;
+    padding-left: 20%;
+    border-left: 1px solid black;
+}
+input[name='submit']{
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid #153d47;
+    padding: 10px 40px;
+}
+tr,td{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#thanks{
+    font-size: 16px;
+    text-align: center;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+}
+tr:nth-child(even){
+    background-color: #e1f3ff;
+}
+tr:nth-child(1){
+    background-color: #0d1027ea;
+    color: white;
+}
+table,tr,td{
+    border: 2px solid darkcyan;
+    border-collapse: collapse;
+}
+
+#download{
+    position: relative;
+    margin: 0px;
+    left: 47%;
+    padding: 25px;
+    margin-top: 30px;
+}
