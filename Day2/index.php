@@ -30,12 +30,6 @@
                 input:sel
             </select>
 
-            //Validate
-            <?php
-                echo "<h2>$first</h2>"
-            ?>
-
-
             </label>
             </div>
             <div id="doc-upload">
