@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 60px;
+}
+fieldset{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+}
+input{
+    display: block;
+}
+input,select{
+    margin-bottom: 20px;
+}
+.form-container{
+    margin-top: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+#text-uploads{
+    margin: auto;
+}
+#doc-upload{
+    float: right;
+    padding-left: 20%;
+    border-left: 1px solid black;
+}
+input[name='submit']{
+    margin: auto;
+    background-color: transparent;
+    border: 3px solid #153d47;
+    padding: 10px;
+}
+tr,td{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+}
+tr:nth-child(even){
+    background-color: #e1f3ff;
+}
+tr:nth-child(1){
+    background-color: #0d1027ea;
+    color: white;
+}
+table,tr,td{
+    border: 2px solid darkcyan;
+    border-collapse: collapse;
+}
+p{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-size: 1.2em;
+}
